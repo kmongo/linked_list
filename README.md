@@ -1,1 +1,1 @@
-# linked_list
+# this is for practice
