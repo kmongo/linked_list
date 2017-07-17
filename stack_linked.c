@@ -13,15 +13,13 @@ Node* Push(Node *p, int val){
 	return p;
 }
 
-void Pop(Node *p){
+Node* Pop(Node *p){
 	if(p == NULL)
 		return;
-	printf("%p\n",p);
 	Node *temp = p;
 	p = p->next;
-	printf("%p\n",p);
 	free(temp);
-	printf("%p\n",temp);
+	return p;
 }
 
 void PRINT(Node *p){
